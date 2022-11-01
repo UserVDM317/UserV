@@ -1,0 +1,903 @@
+.content-block {
+	width: 1019px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.header-yellow-wrap {
+	padding-top: 60px;
+	padding-bottom: 71px;
+}
+
+.header-yellow {
+	background: url('../img/header-bg.jpg') no-repeat;
+	background-size: cover;
+}
+
+.header-yellow-logo-name {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	user-select: none;
+	cursor: pointer;
+}
+
+.header-yellow-name {
+	font-family: 'Lucida Sans';
+	font-weight: 400;
+	font-style: italic;
+	text-transform: uppercase;	
+	font-size: 41px;
+	color: #fff;
+}
+
+.header-yellow-name span {
+	font-family: 'LaoUI';
+	font-size: 13px;
+	font-weight: 400;
+	font-style: normal;
+	text-transform: uppercase;
+}
+
+.header-yellow-nav-menu ul {
+	list-style-type: none;
+	display: flex;
+}
+
+.header-yellow-nav-menu ul li {
+	font-family: 'SegoeWP';
+	font-weight: 400;
+	font-size: 17px;
+	color: #9b7d08;
+	text-transform: uppercase;
+	z-index: 1;
+	cursor: pointer;
+}
+
+
+.header-yellow-nav-menu ul li a {
+	text-decoration: none;
+	color: #9b7d08;
+}
+
+.header-yellow-nav-menu {
+	background: #f5c506;
+	position: relative;
+}
+
+.header-yellow-nav-menu:before {
+	content: '';
+	top: -4px;
+	left: -4px;
+	opacity: 0.3;
+	position: absolute;
+	background: #f5c506;
+	width: 503px;
+	height: 39px;
+}
+
+.header-yellow-nav-menu:after {
+	content: '';
+	top: -8px;
+	left: -8px;
+	opacity: 0.3;
+	position: absolute;
+	background: #f5c506;
+	width: 503px;
+	height: 39px;
+}
+
+
+
+.header-yellow-nav-menu ul li:nth-child(1) {
+	background: url(../img/profile.png) no-repeat center left 15px;
+	padding: 9px 23px 10px 66px;
+}
+
+.header-yellow-nav-menu ul li:nth-child(2) {
+	background: url(../img/key.png) no-repeat center left 15px;
+	border-left: 1px solid #9b7d08;
+	border-right: 1px solid #9b7d08;
+	padding: 9px 17px 10px 42px;
+}
+
+.header-yellow-nav-menu ul li:nth-child(3) {
+	background: url(../img/mail.png) no-repeat center left 17px;
+	padding: 9px 22px 10px 48px;
+  	border: none;
+}
+
+.header-yellow-nav-menu-logo {
+	display: flex;
+	justify-content: space-between;
+}
+
+.header-yellow-slider-text {
+	font-family: 'Asap';
+	font-weight: 400;
+	font-size: 63px;
+	text-transform: uppercase;
+	color: #fff;
+	text-align: center;
+}
+
+.header-yellow-slider-text span {
+	color: #f5c506;
+}
+
+.header-yellow-slider-wrap {
+	margin-top: 56px;
+	display: flex;	
+}
+
+/**/
+.slick-arrow {
+	background: #f5c506;
+}
+
+.slick-prev {
+	font-size: 0;
+	border: none;
+	background: #f5c506;
+	position: relative;
+	width: 32px;
+	height: 57px;
+	left: -115px;
+	top: 150px;
+	
+}
+
+.slick-prev:before {
+	content: '';
+	top: 20px;
+	left: 9px;
+	width: 13px;
+	height: 19px;
+	background: url(../img/arrond.png) no-repeat;
+	position: absolute;
+}
+
+.slick-next {
+	font-size: 0;
+	border: none;
+	background: #f5c506;
+	position: relative;
+	width: 32px;
+	height: 57px;
+	right: -115px;
+	top: 150px;
+}
+
+.slick-next:before {
+	content: '';
+	transform: rotate(180deg);
+	top: 20px;
+	right: 9px;
+	width: 13px;
+	height: 19px;
+	background: url(../img/arrond.png) no-repeat;
+	position: absolute;
+}
+
+
+
+
+/**/
+
+.slick-list {
+	width: 100%;
+
+}
+
+
+.slick-slide {
+	display: flex!important;
+	justify-content: space-around;
+	align-items: center;
+}
+
+/**/
+
+.benefit {
+	background: #fff;
+}
+
+.benefit-wrap {
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+}
+
+.benefit-item {
+	padding: 37px 118px;
+	text-align: center;
+	border-left: 1px solid #d0d0d0;
+	border-right: 1px solid #d0d0d0;
+}
+
+.benefit-item-text {
+	text-transform: uppercase;
+	color: #000;
+	font-family: 'Segoe WP';
+	font-weight: 300;
+	font-size: 17px;
+}
+
+/**/
+
+.april {
+	background: url(../img/bg-yellow-px.png);
+}
+
+.april-title {
+	display: block;
+	font-family: 'PT Sans';
+	font-weight: 400;
+	font-size: 37px;
+	color: #fff;
+	margin-bottom: 41px;
+}
+
+.april-wrap {
+	padding-top: 42px;
+	padding-bottom: 79px;
+}
+
+.april-calendar {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.april-calendar-left {
+	display: flex;
+	min-height: 233px;
+}
+
+.april-calendar-left-text {
+	font-family: 'Segoe WP';
+	font-weight: 300;
+	font-size: 29px;
+	color: #fff;
+	padding: 26px 32px;
+	width: 341px;
+	background: #ec9e03;
+}
+
+.april-calendar-left-img {
+	position: relative;
+}
+
+.april-calendar-left-img:before {
+	content: '+';
+	font-size: 29px;
+	position: absolute;
+	color: #fff;
+	top: 200px;
+	left: -30px;
+}
+
+.april-calendar-number {
+	width: 113px;
+	height: 86px;
+	background: #ddb101;
+}
+
+.april-calendar-number-25 {
+	display: flex;
+	justify-content: center;
+	font-weight: 700;
+	font-size: 51px;
+	color: #fff;
+}
+
+.april-calendar-number-month {
+	display: flex;
+	justify-content: center;
+	font-size: 21px;
+	font-weight: 400;
+	color: #b26529;
+	text-transform: uppercase;
+}
+
+.april-calendar-right {
+	margin-left: 34px;
+}
+
+.april-calendar-right-img {
+	position: relative;
+	padding: 59px 83px;
+	background: #ec9e03;
+	height: 233px;
+}
+
+.april-calendar-right-img-mobile {
+	display: none;
+}
+
+.april-calendar-right-img:after {
+	content: '+';
+	font-size: 29px;
+	position: absolute;
+	color: #fff;
+	left: 300px;
+	top: 200px;
+}
+
+.april-calendar-right-img:before {
+	content: '22';
+	font-family: 'Segoe WP';
+	font-weight: 300;
+	font-size: 25px;
+	position: absolute;
+	left: 290px;
+	bottom: 190px;
+	color: #fff;
+}
+
+/*yalow*/
+
+.yalow {
+	background: url(../img/footer-bg.png);
+}
+
+.yalow-wrap {
+	padding-top: 49px;
+	padding-bottom: 96px;
+}
+
+.yalow-list ul li {
+	position: relative;
+	font-family: 'PT Sans';
+	font-weight: 400;
+	font-size: 22px;
+	color: #a9a9a7;
+	list-style-type: none;
+	padding: 12px;
+}
+
+.yalow-list ul li:before {
+	content: '';
+	position: absolute;
+	width: 14px;
+	height: 14px;
+	background: #f5c506;
+	border: none;
+	border-radius: 7px;
+	left: -20px;
+	top: 19px;
+}
+
+.yalow-title {
+	display: flex;
+	justify-content: center;
+	font-family: 'PT Sans';
+	font-weight: 400;
+	font-size: 43px;
+	color: #f5c506;
+}
+
+.yalow-list-img-wrap {
+	display: flex;
+}
+
+.yalow-img {
+	margin-right: 114px;
+	padding: 27px;
+}
+
+/*footer*/
+
+.footer-yalow {
+	background: #4c4c4c;
+}
+
+.footer-yalow-logo {
+	display: flex;
+}
+
+.footer-yalow-logo-link {
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer-yalow-logo-img {
+	width: 54px;
+	height: 54px;
+}
+
+.footer-yalow-logo-img img {
+	width: 100%;
+}
+
+.footer-yalow-logo-link {
+	width: 100%;
+	height: 64px;
+}
+
+.footer-yalow-logo-text {
+	display: flex;
+	align-items: center;
+	font-family: 'Lucida Sans';
+	font-weight: 400;
+	font-size: 29px;
+	font-style: italic;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.footer-yalow-link {
+	display: flex;
+	align-items: center;
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 17px;
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*adaptation*/
+
+@media screen and (max-width: 1000px) {
+	.header-yellow-name span {
+		display: none;
+	}
+
+	.april-calendar-right-img {
+		display: none;
+	}
+
+	.april-calendar-right-img-mobile {
+		display: block;
+	}
+
+	.april-title {
+		padding-left: 15px;
+	}
+
+	.april-calendar {
+	}
+
+	.footer-yalow-logo {
+		padding-left: 18px;
+	}
+
+	.footer-yalow-link {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+
+	.header-yellow-slider-text {
+		flex-wrap: wrap;
+	}
+
+	.yalow-list {
+  }
+
+  .yalow-img {
+  	width: 100%;
+  	text-align: center;
+  	
+  }
+  .yalow-img img {
+  }
+
+  .header-yellow-nav-menu:before {
+		display: none;
+	}
+
+	.header-yellow-nav-menu:after {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 768px) {
+
+  .header-yellow-slider-text {
+  	display: none;
+  }
+
+  .content-block {
+  	width: 100%;
+  }
+
+  .header-yellow-wrap {
+  	padding: 0;
+  }
+
+  .header-yellow-logo-name {
+  	background: #5c5c5c;
+    padding-left: 12px;
+    padding-right: 18px;
+  }
+
+  .header-yellow-logo img {
+  	height: 40px;
+  	width: auto;
+  }
+
+  .header-yellow-nav-menu ul {
+  }
+
+  .header-yellow-nav-menu ul li {
+  	text-align: center;
+  	width: 33.33%;
+  	padding: 9px 12px 10px 38px;
+    background-position: 12px 12px;
+    font-size: 14px;
+  }
+
+  .header-yellow-name {
+  	font-size: 19px;
+  }
+
+  .header-yellow-name span {
+  	display: none;
+  }
+  .header-yellow-nav-menu-logo {
+  	display: flex;
+  }
+  .header-yellow-menu {
+  	width: 100%;
+  }
+
+  .header-yellow-nav-menu {
+    padding-bottom: 1px;
+    padding-top: 1px;
+  }
+
+  .header-yellow-nav-menu:before {
+  	display: none;
+  }
+
+  .header-yellow-nav-menu:after {
+  	display: none;
+  }
+
+  .header-yellow-nav-menu ul li:nth-child(1) {
+	background: url(../img/profile.png) no-repeat center left 12px;
+	padding: 9px 12px 10px 38px;
+  }
+
+  .header-yellow-nav-menu ul li:nth-child(2) {
+	background: url(../img/key.png) no-repeat center left 12px;
+	border-left: 1px solid #9b7d08;
+	border-right: 1px solid #9b7d08;
+	padding: 9px 12px 10px 38px;
+  }
+
+  .header-yellow-nav-menu ul li:nth-child(3) {
+	background: url(../img/mail.png) no-repeat center left 12px;
+	padding: 9px 12px 10px 38px;
+  	border: none;
+  }
+
+  .header-yellow-slider-text {
+  	display: none;
+  }
+
+  .header-yellow-slider-img {
+  	width: 100%;
+  	font-size: 0;
+  }
+  .slick-track {
+  	width: 100%;
+  }
+
+  .slick-active {
+  	width: 100%;
+  }
+  .slick-slide {
+  	display: block;
+
+  }
+
+  .slick-arrow {
+  	display: none;
+  }
+  .slick-slide img {
+  	width: 100%;
+  	object-fit: cover;
+  }
+
+  .header-yellow-slider-wrap {
+  	margin-top: 0;
+  }
+
+  /*benefit*/
+  
+  .benefit-wrap {
+  	width: 100%;
+  	display: flex;
+  	justify-content: space-between;
+  	padding: 10px;
+  }
+
+  .benefit-item {
+  	padding: 0;
+  	margin: 0;
+  	border: none;
+  }
+
+  /*calendar*/
+
+  .april-wrap {
+  	padding: 0;
+  }
+
+  .april-calendar-left {
+  	margin-right: 9px;
+  	width: 100%;
+  }
+
+  .april-calendar-left-text {
+  	font-size: 20px;
+  }
+
+  .april-calendar-right {
+  	display: flex;
+  	flex-wrap: wrap;
+  	padding-top: 7px;
+  	margin-left: 0;
+  }
+
+
+
+  .april-calendar-right-img {
+  	display: none;
+  }
+
+  .april-calendar-right-img-mobile {
+  	width: 100%;
+  	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	
+  }
+
+  .april-calendar {
+  	margin: 9px;
+  	flex-wrap: wrap;
+  }
+
+  .april-calendar-number {
+  	display: none;
+  }
+
+  /*yalow*/
+
+  .yalow-title {
+  	text-transform: uppercase;
+  }
+
+  .yalow-list {
+  	display: none;
+  }
+
+  .yalow-img {
+  	width: 100%;
+  }
+
+  /*footer*/
+
+  .footer-yalow {
+  	padding: 10px;
+  }
+
+  .footer-yalow-link {
+  	display: none;
+  }
+}
+
+@media screen and (max-width: 640px) {
+
+  .header-yellow-slider-text {
+  	display: none;
+  }
+
+  .content-block {
+  	width: 100%;
+  }
+
+  .header-yellow-wrap {
+  	padding: 0;
+  }
+
+  .header-yellow-logo-name {
+  	background: #5c5c5c;
+    padding-left: 12px;
+    padding-right: 18px;
+  }
+
+  .header-yellow-logo img {
+  	height: 40px;
+  	width: auto;
+  }
+
+  .header-yellow-nav-menu ul {
+  }
+
+  .header-yellow-nav-menu ul li {
+  	text-align: center;
+  	width: 33.33%;
+  	padding: 9px 12px 10px 38px;
+    background-position: 12px 12px;
+    font-size: 14px;
+  }
+
+  .header-yellow-name {
+  	font-size: 19px;
+  }
+
+  .header-yellow-name span {
+  	display: none;
+  }
+  .header-yellow-nav-menu-logo {
+  	display: flex;
+  }
+  .header-yellow-menu {
+  	width: 100%;
+  }
+
+  .header-yellow-nav-menu {
+    padding-bottom: 1px;
+    padding-top: 1px;
+  }
+
+  .header-yellow-nav-menu:before {
+  	display: none;
+  }
+
+  .header-yellow-nav-menu:after {
+  	display: none;
+  }
+
+  .header-yellow-nav-menu ul li:nth-child(1) {
+	background: url(../img/profile.png) no-repeat center left 12px;
+	padding: 9px 12px 10px 38px;
+  }
+
+  .header-yellow-nav-menu ul li:nth-child(2) {
+	background: url(../img/key.png) no-repeat center left 12px;
+	border-left: 1px solid #9b7d08;
+	border-right: 1px solid #9b7d08;
+	padding: 9px 12px 10px 38px;
+  }
+
+  .header-yellow-nav-menu ul li:nth-child(3) {
+	background: url(../img/mail.png) no-repeat center left 12px;
+	padding: 9px 12px 10px 38px;
+  	border: none;
+  }
+
+  .header-yellow-slider-text {
+  	display: none;
+  }
+
+  .header-yellow-slider-img {
+  	width: 100%;
+  	font-size: 0;
+  }
+  .slick-track {
+  	width: 100%;
+  }
+
+  .slick-active {
+  	width: 100%;
+  }
+  .slick-slide {
+  	display: block;
+
+  }
+
+  .slick-arrow {
+  	display: none;
+  }
+  .slick-slide img {
+  	width: 100%;
+  	object-fit: cover;
+  }
+
+  .header-yellow-slider-wrap {
+  	margin-top: 0;
+  }
+
+  /*benefit*/
+  
+  .benefit-wrap {
+  	width: 100%;
+  	display: flex;
+  	justify-content: space-between;
+  	padding: 10px;
+  }
+
+  .benefit-item {
+  	padding: 0;
+  	margin: 0;
+  	border: none;
+  }
+
+  /*calendar*/
+
+  .april-wrap {
+  	padding: 0;
+  }
+
+  .april-calendar-left {
+  	margin-right: 9px;
+  	width: 100%;
+  }
+
+  .april-calendar-left-text {
+  	font-size: 20px;
+  }
+
+  .april-calendar-right {
+  	display: flex;
+  	flex-wrap: wrap;
+  	padding-top: 7px;
+  	margin-left: 0;
+  }
+
+
+
+  .april-calendar-right-img {
+  	display: none;
+  }
+
+  .april-calendar-right-img-mobile {
+  	width: 100%;
+  	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	
+  }
+
+  .april-calendar {
+  	margin: 9px;
+  	flex-wrap: wrap;
+  }
+
+  .april-calendar-number {
+  	display: none;
+  }
+
+  /*yalow*/
+
+  .yalow-title {
+  	text-transform: uppercase;
+  }
+
+  .yalow-list {
+  	display: none;
+  }
+
+  .yalow-img {
+  	width: 100%;
+  }
+
+  /*footer*/
+
+  .footer-yalow {
+  	padding: 10px;
+  }
+
+  .footer-yalow-link {
+  	display: none;
+  }
+}
